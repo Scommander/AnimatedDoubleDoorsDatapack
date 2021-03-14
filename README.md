@@ -2,7 +2,7 @@
 
 **If using this creation in a video I ask that you paste the following into your description:**
 
-    "DatapackName" datapack by Scommander [https://www.youtube.com/c/scommander]
+    "Animated Double Doors" datapack by Scommander [https://www.youtube.com/c/scommander]
 
     Download Datapack: [https://github.com/Scommander/AnimatedDoubleDoorsDatapack/releases]
 
