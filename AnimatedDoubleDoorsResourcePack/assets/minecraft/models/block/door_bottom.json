@@ -1,0 +1,19 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "0": "block/blank_door",
+        "particle": "block/blank_door"
+    },
+    "elements": [
+        {   "from": [ 0, 0, 0 ],
+            "to": [ 3, 16, 16 ],
+            "faces": {
+                "down":  { "uv": [ 13, 0, 16, 16 ], "texture": "#0", "cullface": "down" },
+                "north": { "uv": [  3, 0,  0, 16 ], "texture": "#0", "cullface": "north" },
+                "south": { "uv": [  0, 0,  3, 16 ], "texture": "#0", "cullface": "south" },
+                "west":  { "uv": [  0, 0, 16, 16 ], "texture": "#0", "cullface": "west" },
+                "east":  { "uv": [ 16, 0,  0, 16 ], "texture": "#0" }
+            }
+        }
+    ]
+}

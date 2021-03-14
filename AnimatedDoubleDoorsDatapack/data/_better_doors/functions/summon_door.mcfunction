@@ -1,0 +1,18 @@
+execute if block ~ ~ ~ #_better_doors:valid_door[facing=north,hinge=left] unless entity @e[type=minecraft:armor_stand,distance=..0.1,tag=_betdor_marker] run summon minecraft:armor_stand ~-0.4065 ~ ~0.4065 {Tags:["_betdor_marker","_betdor_new_marker"],Rotation:[0f,0f],Small:1b,Invulnerable:1b,DisabledSlots:4144959,Invisible:1b,NoGravity:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:bedrock",Count:1b}]}
+execute if block ~ ~ ~ #_better_doors:valid_door[facing=north,hinge=right] unless entity @e[type=minecraft:armor_stand,distance=..0.1,tag=_betdor_marker] run summon minecraft:armor_stand ~0.4065 ~ ~0.4065 {Tags:["_betdor_marker","_betdor_new_marker"],Rotation:[0f,0f],Small:1b,Invulnerable:1b,DisabledSlots:4144959,Invisible:1b,NoGravity:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:bedrock",Count:1b}]}
+
+
+execute if block ~ ~ ~ #_better_doors:valid_door[facing=south,hinge=left] unless entity @e[type=minecraft:armor_stand,distance=..0.1,tag=_betdor_marker] run summon minecraft:armor_stand ~0.4065 ~ ~-0.4065 {Tags:["_betdor_marker","_betdor_new_marker"],Rotation:[180f,0f],Small:1b,Invulnerable:1b,DisabledSlots:4144959,Invisible:1b,NoGravity:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:bedrock",Count:1b}]}
+execute if block ~ ~ ~ #_better_doors:valid_door[facing=south,hinge=right] unless entity @e[type=minecraft:armor_stand,distance=..0.1,tag=_betdor_marker] run summon minecraft:armor_stand ~-0.4065 ~ ~-0.4065 {Tags:["_betdor_marker","_betdor_new_marker"],Rotation:[180f,0f],Small:1b,Invulnerable:1b,DisabledSlots:4144959,Invisible:1b,NoGravity:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:bedrock",Count:1b}]}
+
+
+execute if block ~ ~ ~ #_better_doors:valid_door[facing=east,hinge=left] unless entity @e[type=minecraft:armor_stand,distance=..0.1,tag=_betdor_marker] run summon minecraft:armor_stand ~-0.4065 ~ ~-0.4065 {Tags:["_betdor_marker","_betdor_new_marker"],Rotation:[90f,0f],Small:1b,Invulnerable:1b,DisabledSlots:4144959,Invisible:1b,NoGravity:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:bedrock",Count:1b}]}
+execute if block ~ ~ ~ #_better_doors:valid_door[facing=east,hinge=right] unless entity @e[type=minecraft:armor_stand,distance=..0.1,tag=_betdor_marker] run summon minecraft:armor_stand ~-0.4065 ~ ~0.4065 {Tags:["_betdor_marker","_betdor_new_marker"],Rotation:[90f,0f],Small:1b,Invulnerable:1b,DisabledSlots:4144959,Invisible:1b,NoGravity:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:bedrock",Count:1b}]}
+
+
+execute if block ~ ~ ~ #_better_doors:valid_door[facing=west,hinge=left] unless entity @e[type=minecraft:armor_stand,distance=..0.1,tag=_betdor_marker] run summon minecraft:armor_stand ~0.4065 ~ ~0.4065 {Tags:["_betdor_marker","_betdor_new_marker"],Rotation:[270f,0f],Small:1b,Invulnerable:1b,DisabledSlots:4144959,Invisible:1b,NoGravity:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:bedrock",Count:1b}]}
+execute if block ~ ~ ~ #_better_doors:valid_door[facing=west,hinge=right] unless entity @e[type=minecraft:armor_stand,distance=..0.1,tag=_betdor_marker] run summon minecraft:armor_stand ~0.4065 ~ ~-0.4065 {Tags:["_betdor_marker","_betdor_new_marker"],Rotation:[270f,0f],Small:1b,Invulnerable:1b,DisabledSlots:4144959,Invisible:1b,NoGravity:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:bedrock",Count:1b}]}
+
+execute as @e[type=minecraft:armor_stand,tag=_betdor_new_marker,distance=..1] at @s run function _better_doors:setup_door
+
+tag @e[type=minecraft:armor_stand,tag=_betdor_new_marker,distance=..0.1] remove _betdor_new_marker

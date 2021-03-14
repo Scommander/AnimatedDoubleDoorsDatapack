@@ -1,0 +1,1 @@
+schedule function _better_doors:setup/on_reload 20t

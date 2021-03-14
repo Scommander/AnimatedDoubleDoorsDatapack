@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/main/left_hinge",
+    "textures": {
+        "top": "minecraft:block/jungle_door_top",
+        "bottom": "minecraft:block/jungle_door_bottom"
+    }
+}

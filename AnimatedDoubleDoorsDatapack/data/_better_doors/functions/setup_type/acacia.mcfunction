@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ #_better_doors:valid_door[hinge=left] run data merge entity @s {ArmorItems:[{},{},{},{id:"minecraft:spruce_planks",Count:1b,tag:{CustomModelData:903009}}]}
+execute if block ~ ~ ~ #_better_doors:valid_door[hinge=right] run data merge entity @s {ArmorItems:[{},{},{},{id:"minecraft:spruce_planks",Count:1b,tag:{CustomModelData:903010}}]}

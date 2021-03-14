@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:block/spruce_planks",
+    "overrides": [
+      { "predicate": {"custom_model_data": 903001}, "model": "minecraft:block/type/oak_left"},
+      { "predicate": {"custom_model_data": 903002}, "model": "minecraft:block/type/oak_right"},
+      { "predicate": {"custom_model_data": 903003}, "model": "minecraft:block/type/spruce_left"},
+      { "predicate": {"custom_model_data": 903004}, "model": "minecraft:block/type/spruce_right"},
+      { "predicate": {"custom_model_data": 903005}, "model": "minecraft:block/type/birch_left"},
+      { "predicate": {"custom_model_data": 903006}, "model": "minecraft:block/type/birch_right"},
+      { "predicate": {"custom_model_data": 903007}, "model": "minecraft:block/type/jungle_left"},
+      { "predicate": {"custom_model_data": 903008}, "model": "minecraft:block/type/jungle_right"},
+      { "predicate": {"custom_model_data": 903009}, "model": "minecraft:block/type/acacia_left"},
+      { "predicate": {"custom_model_data": 903010}, "model": "minecraft:block/type/acacia_right"},
+      { "predicate": {"custom_model_data": 903011}, "model": "minecraft:block/type/dark_oak_left"},
+      { "predicate": {"custom_model_data": 903012}, "model": "minecraft:block/type/dark_oak_right"},
+      { "predicate": {"custom_model_data": 903013}, "model": "minecraft:block/type/crimson_left"},
+      { "predicate": {"custom_model_data": 903014}, "model": "minecraft:block/type/crimson_right"},
+      { "predicate": {"custom_model_data": 903015}, "model": "minecraft:block/type/warped_left"},
+      { "predicate": {"custom_model_data": 903016}, "model": "minecraft:block/type/warped_right"},
+      { "predicate": {"custom_model_data": 903017}, "model": "minecraft:block/type/iron_left"},
+      { "predicate": {"custom_model_data": 903018}, "model": "minecraft:block/type/iron_right"}
+    ]
+}
